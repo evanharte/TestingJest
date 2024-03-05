@@ -5,5 +5,5 @@ test('reverseString exists', () => {
 });
 
 test('string reversed', () => {
-    expect(reverseString('welcome')).toEqual('olleh');
+    expect(reverseString('hello')).toEqual('olleh');
 });

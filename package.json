@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "Peter Rawsthorne",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.5.1"
-  },
   "dependencies": {
-    "axios": "^0.24.0"
+    "date-fns": "^2.30.0",
+    "jest": "^29.5.0",
+    "uuid": "^9.0.0"
   }
 }

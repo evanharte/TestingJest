@@ -1,5 +1,5 @@
-const Bill = require('./first');
-var maths = new Bill.Maths();
+const Testing = require('./first');
+var maths = new Testing.Maths();
 
 test('Should add up to seven', () => {
     expect(maths.add(1,6)).toBe(7);
@@ -35,7 +35,7 @@ test('Should be Undefined', () => {
     expect(maths.isUndefined()).toBeUndefined();
 })
 
-var Peter = new Bill.Employee('Thorne', 48);
+var Peter = new Testing.Employee('Thorne', 48);
 Peter.first_name = 'Peter';
 
 test('Should be last_name = Thorne', () => {
